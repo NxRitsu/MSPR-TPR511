@@ -1,2 +1,7 @@
-# MSPR-TPR511
-Projet dans le cadre de ma 3ème année en Bachelor SysOps à l'EPSI de Rennes.
+🚀 Projet "Seahawk Monitoring" - Documentation MSPR - BLOC E6.1 🚧
+👥 Membres du groupe
+
+    Dominique SAMBIANI 🧑‍💻
+    Emerick CORBEEL 🧑‍💻
+    Melvin PREVOST 🧑‍💻
+    Alexandre AULER 🧑‍💻
