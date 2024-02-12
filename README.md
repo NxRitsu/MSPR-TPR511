@@ -37,3 +37,25 @@ La société "NFL IT" souhaite améliorer son efficacité opérationnelle en con
 ## 🌟 Avantages
 
 Le projet "Seahawk Monitoring" offre à "NFL IT" l'opportunité d'améliorer son efficacité opérationnelle et de diversifier ses services. Cela permet également à l'entreprise de se rapprocher de ses clients.
+
+## 🛠️ Technologies Utilisées
+
+### 🕸️ Seahawks Nester
+
+    Application WEB utilisant le micro-framework Flask en Python.
+    Environnement déployé via l’URL 127.0.0.1:5000.
+
+### 🐍 Seahawks Harvester
+
+    Application graphique développée en Python.
+    Modules utilisés :
+        - Os
+        - Tkinter
+        - Ttk
+        - Scrolledtext
+        - Ping3
+        - Nmap
+        - Psutil
+        - Datetime
+        - Pysftp
+        - Xml.etree.ElementTree
