@@ -17,21 +17,21 @@ La société "NFL IT" souhaite améliorer son efficacité opérationnelle en con
 
 Effectue un scan réseau du réseau local du client.
 Fournit un tableau de bord avec des informations telles que:
-    - L’adresse IP locale
-    - Le nombre de machines connectées en LAN
-    - Affichage du dernier scan réseau (machines + ports)
-    - Latence de l’accès à internet
-    - La version de l’application
+* L'adresse IP locale
+* Le nombre de machines connectées en LAN
+* Affichage du dernier scan réseau (machines + ports)
+* Latence de l’accès à internet
+* La version de l’application
 Présenté sous forme d’une application graphique déployée sur un environnement Debian 12.
 
 ### Seahawks Nester
 
 Application WEB hébergeant les informations des différents Seahawks Harvesters.
 Hébergé à Roubaix, en France.
-    - Permet d'accéder à la liste des Seahawks Harvester.
-    - Connaît l’état d’un Seahawks Harvester (connecté ou non).
-    - Affiche le tableau de bord d’un Seahawks Harvester.
-    - Permet d'accéder au dernier scan réseau réalisé.
+* Permet d'accéder à la liste des Seahawks Harvester.
+* Connaît l’état d’un Seahawks Harvester (connecté ou non).
+* Affiche le tableau de bord d’un Seahawks Harvester.
+* Permet d'accéder au dernier scan réseau réalisé.
 Accessible aux techniciens à Kansas City via un environnement Debian 12.
 
 ## 🌟 Avantages
@@ -49,16 +49,16 @@ Environnement déployé via l’URL 127.0.0.1:5000.
 
 Application graphique développée en Python.
  Modules utilisés :
-    - Os
-    - Tkinter
-    - Ttk
-    - Scrolledtext
-    - Ping3
-    - Nmap
-    - Psutil
-    - Datetime
-    - Pysftp
-    - Xml.etree.ElementTree
+* Os
+* Tkinter
+* Ttk
+* Scrolledtext
+* Ping3
+* Nmap
+* Psutil
+* Datetime
+* Pysftp
+* Xml.etree.ElementTree
         
 ## 🚀 Comment Utiliser l’Application Seahawks Harvester ?
 
