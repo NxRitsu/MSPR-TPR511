@@ -1,20 +1,14 @@
 # 🚀 Projet "Seahawk Monitoring" - Documentation MSPR - BLOC E6.1 🚧
-👥 Membres du groupe
+## 👥 Membres du groupe
 
     Dominique SAMBIANI 🧑‍💻
     Emerick CORBEEL 🧑‍💻
     Melvin PREVOST 🧑‍💻
     Alexandre AULER 🧑‍💻
 
-🌐 Présentation du Projet
-🏢 Contexte de l'Entreprise
+## 🌐 Présentation du Projet
 
-    Nom de l’entreprise: NFL IT (National Football League Information Technology)
-    Type d’activité: Service informatique spécialisé dans les équipes de football américain
-    Contrat exclusif: Contrat d'exclusivité avec la National Football League (NFL).
-    Effectif de l’entreprise: Plus de 100 employés, dont 30 techniciens et ingénieurs itinérants, siège à Kansas City (Missouri).
-
-🎯 Objectif du Projet "Seahawks Monitoring"
+### 🎯 Objectif du Projet "Seahawks Monitoring"
 
 La société "NFL IT" souhaite améliorer son efficacité opérationnelle en concevant une solution de maintenance à distance. Le projet vise à collecter des informations techniques et à assurer la maintenance à distance des réseaux locaux des franchises de la NFL.
 🚀 Fonctionnalités du "Seahawks Monitoring"
