@@ -1,0 +1,7 @@
+Horodatage : 2024-02-02 09:57:57
+Machines Connectées : 1
+
+192.168.1.27 - Ports Ouverts :
+    22/tcp
+    80/tcp
+Latence WAN : 20.45 ms
