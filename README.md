@@ -71,3 +71,6 @@ sudo -E python3 ./Harvester.py
 Cela ouvrira l’application graphique Python, affichant l'adresse IP locale avec un bouton permettant d’effectuer le scan réseau.
 
 En cliquant sur le bouton, le scan se lance, affichant le résultat du scan réseau ainsi que la latence WAN.
+
+## 🚀 Comment Utiliser l’Application Seahawks Nester ?
+*A venir*
