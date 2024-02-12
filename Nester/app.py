@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Fonction pour obtenir la liste des fichiers XML des Harvesters
 def get_harvesters_list():
     script_path = os.path.dirname(os.path.abspath(__file__))  # Chemin du répertoire du script
-    harvester_path = os.path.join(script_path, 'path_to_xml_files')  # Assurez-vous d'avoir le bon chemin
+    harvester_path = os.path.join(script_path, 'path_to_xml_files')
     return [f.split('.')[0] for f in os.listdir(harvester_path) if f.endswith('.xml')]
 
 # Fonction pour extraire les informations du fichier XML
@@ -51,7 +51,7 @@ def index():
 @app.route('/harvester/<harvester_id>')
 def harvester_dashboard(harvester_id):
     script_path = os.path.dirname(os.path.abspath(__file__))  # Chemin du répertoire du script
-    harvester_file = os.path.join(script_path, 'path_to_xml_files', f'{harvester_id}.xml')  # Assurez-vous d'avoir le bon chemin
+    harvester_file = os.path.join(script_path, 'path_to_xml_files', f'{harvester_id}.xml')
     
     # Vérifiez si le fichier XML existe
     if not os.path.isfile(harvester_file):
