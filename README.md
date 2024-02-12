@@ -28,10 +28,10 @@ La société "NFL IT" souhaite améliorer son efficacité opérationnelle en con
 
     Application WEB hébergeant les informations des différents Seahawks Harvesters.
     Hébergé à Roubaix, en France.
-    - Permet d'accéder à la liste des Seahawks Harvester.
-    - Connaît l’état d’un Seahawks Harvester (connecté ou non).
-    - Affiche le tableau de bord d’un Seahawks Harvester.
-    - Permet d'accéder au dernier scan réseau réalisé.
+        - Permet d'accéder à la liste des Seahawks Harvester.
+        - Connaît l’état d’un Seahawks Harvester (connecté ou non).
+        - Affiche le tableau de bord d’un Seahawks Harvester.
+        - Permet d'accéder au dernier scan réseau réalisé.
     Accessible aux techniciens à Kansas City via un environnement Debian 12.
 
 ## 🌟 Avantages
