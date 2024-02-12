@@ -16,11 +16,11 @@ La société "NFL IT" souhaite améliorer son efficacité opérationnelle en con
 ### Seahawks Harvester
 
 Effectue un scan réseau du réseau local du client.
-Fournit un tableau de bord avec des informations telles que:
+Fournis un tableau de bord avec des informations telles que:
 * L'adresse IP locale
 * Le nombre de machines connectées en LAN
 * Affichage du dernier scan réseau (machines + ports)
-* Latence de l’accès à internet
+* Latence de l’accès à Internet
 * La version de l’application
 Présenté sous forme d’une application graphique déployée sur un environnement Debian 12.
 
@@ -29,7 +29,7 @@ Présenté sous forme d’une application graphique déployée sur un environnem
 Application WEB hébergeant les informations des différents Seahawks Harvesters.
 Hébergé à Roubaix, en France.
 * Permet d'accéder à la liste des Seahawks Harvester.
-* Connaît l’état d’un Seahawks Harvester (connecté ou non).
+* Connais l’état d’un Seahawks Harvester (connecté ou non).
 * Affiche le tableau de bord d’un Seahawks Harvester.
 * Permet d'accéder au dernier scan réseau réalisé.
 Accessible aux techniciens à Kansas City via un environnement Debian 12.
@@ -60,9 +60,9 @@ Application graphique développée en Python.
 * Pysftp
 * Xml.etree.ElementTree
         
-## 🚀 Comment Utiliser l’Application Seahawks Harvester ?
+## 🚀 Comment utiliser l’Application Seahawks Harvester ?
 
-Après avoir installé tous les modules nécessaire, exécutez cette commande pour lancer l'application graphique Python :
+Après avoir installé tous les modules nécessaires, exécutez cette commande pour lancer l'application graphique Python :
 
 ```
 sudo -E python3 ./Harvester.py
@@ -72,5 +72,5 @@ Cela ouvrira l’application graphique Python, affichant l'adresse IP locale ave
 
 En cliquant sur le bouton, le scan se lance, affichant le résultat du scan réseau ainsi que la latence WAN.
 
-## 🚀 Comment Utiliser l’Application Seahawks Nester ?
+## 🚀 Comment utiliser l’Application Seahawks Nester ?
 *A venir*
