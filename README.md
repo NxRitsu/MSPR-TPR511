@@ -5,6 +5,7 @@ Dominique SAMBIANI 🧑‍💻
 Emerick CORBEEL 🧑‍💻
 Melvin PREVOST 🧑‍💻
 Alexandre AULER 🧑‍💻
+Hugo BRAZIDEC 🧑‍💻
 
 ## 🌐 Présentation du Projet
 
