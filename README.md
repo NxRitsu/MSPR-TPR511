@@ -32,9 +32,9 @@ make
 ```
 Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
-Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
+4. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
 
-Après avoir installé tous les modules nécessaires, exécutez cette commande pour lancer l'application graphique Python :
+5. Exécutez cette commande pour lancer l'application graphique Python :
 
 ```
 sudo -E python3 ./Harvester.py
