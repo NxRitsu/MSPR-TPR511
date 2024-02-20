@@ -24,7 +24,7 @@ Présenté sous forme d’une application graphique Python déployée sur un env
 git clone https://github.com/NxRitsu/SeahawksHarvester/
 ```
 
-2. Exécuter la commande suivante :
+2. Exécuter la commande suivante (dans le dossier dossier téléchargé) :
 ```
 make
 ```
