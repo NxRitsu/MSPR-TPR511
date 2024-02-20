@@ -3,14 +3,6 @@
 # Cible par défaut
 all: gen-ssh-key ssh-copy-id install-packages install-python-packages
 
-# Générer une paire de clés SSH
-gen-ssh-key:
-	ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
-
-# Copier la clé SSH sur le serveur (modifier l'adresse IP ainsi que le user)
-ssh-copy-id:
-	ssh-copy-id -i ~/.ssh/id_rsa.pub user_ssh@<adresse_ip>
-
 # Installer des packages système via apt
 install-packages:
 	sudo apt update
