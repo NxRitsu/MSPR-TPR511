@@ -12,7 +12,7 @@ Fournis un tableau de bord avec des informations telles que:
 * Le nombre de machines connectées en LAN
 * Affichage du dernier scan réseau (machines + ports)
 * Latence de l’accès à Internet
-* La version de l’application
+  
 Cette application créée un fichier XML comprenant toutes les inforamtions du dernier scan réseau, ce fichier XML est ensuite envoyé sur le serveur voulu via sFTP.
 Présenté sous forme d’une application graphique Python déployée sur un environnement Debian 12.
  
@@ -31,7 +31,7 @@ make
 Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
 3. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
-   Ligne 27, 143, 144, et 145
+   *Ligne 27, 143, 144, et 145*
 
 5. Générer une paire de clés SSH :
 ```
