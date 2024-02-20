@@ -31,7 +31,7 @@ make
 Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
 3. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
-   *Ligne 27, 143, 144, et 145*
+   **Ligne 27, 143, 144, et 145**
 
 5. Générer une paire de clés SSH :
 ```
