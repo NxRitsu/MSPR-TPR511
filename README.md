@@ -24,15 +24,21 @@ Présenté sous forme d’une application graphique Python déployée sur un env
 git clone https://github.com/NxRitsu/SeahawksHarvester/
 ```
 
-2. Modifier le Makefile, afin de préciser l'utilisateur qui se connectera en sFTP et l'adresse IP du serveur qui va recevoir le fichier XML.
-
-3. Exécuter la commande suivante :
+2. Exécuter la commande suivante :
 ```
 make
 ```
 Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
-4. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
+3. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
+
+4. Générer une paire de clés SSH :
+```
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
+```
+```
+ssh-copy-id -i ~/.ssh/id_rsa.pub <user_ssh>@<adresse_ip>
+```
 
 5. Exécutez cette commande pour lancer l'application graphique Python :
 
