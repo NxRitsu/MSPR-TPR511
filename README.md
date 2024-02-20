@@ -18,6 +18,8 @@ Présenté sous forme d’une application graphique Python déployée sur un env
  
 ## 🚀 Comment utiliser l’Application Seahawks Harvester ?
 
+Modifier le Makefile, afin de préciser l'utilisateur et l'adresse IP du serveur qui va recevoir le fichier XML.
+
 Après avoir installé tous les modules nécessaires, exécutez cette commande pour lancer l'application graphique Python :
 
 ```
