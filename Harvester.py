@@ -24,7 +24,7 @@ class ApplicationReseauAvecNmap:
         self.label_ip = ttk.Label(self.root, text="Adresse IP LAN:")
         self.label_ip.pack(pady=10)
 
-        self.nom_interface_lan = 'ens36'
+        self.nom_interface_lan = '<carte_réseau_LAN>' # <-- Nom de la carte réseau LAN a modifier si besoin (par exemple : ens36)
 
         self.bouton_scan = ttk.Button(self.root, text="Scanner le Réseau", command=self.scanner_reseau)
         self.bouton_scan.pack(pady=10)
@@ -140,9 +140,9 @@ class ApplicationReseauAvecNmap:
             fichier.write(f"Latence WAN : {latence}\n")
 
     def transfere_resultats_scan_via_sftp(self, chemin_fichier_local):
-        adresse_du_nester = "192.168.1.88"
-        nom_utilisateur = "melvin"
-        chemin_distant = "/home/melvin/Nester/path_to_xml_files/1.xml"
+        adresse_du_nester = "<adresse_ip" # <-- Adresse IP du serveur qui recevra le fichier XML
+        nom_utilisateur = "<user>" # <-- Utilisateur qui se connectera en sFTP au serveur
+        chemin_distant = "/home/<user>/Nester/path_to_xml_files/1.xml" # <-- Chemin où sera déposé le fichier XML (Le nom du fichier XML sera le nom du Seahawks Harvester sur la page WEB du Seahawks Nester)
 
         with pysftp.Connection(adresse_du_nester, username=nom_utilisateur) as sftp:
             sftp.put(chemin_fichier_local, chemin_distant)
