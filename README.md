@@ -18,7 +18,19 @@ Présenté sous forme d’une application graphique Python déployée sur un env
  
 ## 🚀 Comment utiliser l’Application Seahawks Harvester ?
 
-Modifier le Makefile, afin de préciser l'utilisateur et l'adresse IP du serveur qui va recevoir le fichier XML.
+1. Télécharger les fichiers :
+
+```
+git clone https://github.com/NxRitsu/SeahawksHarvester/
+```
+
+2. Modifier le Makefile, afin de préciser l'utilisateur qui se connectera en sFTP et l'adresse IP du serveur qui va recevoir le fichier XML.
+
+3. Exécuter la commande suivante :
+```
+make
+```
+Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
 Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
 
