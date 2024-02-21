@@ -1,7 +1,7 @@
 # Makefile pour installer et exécuter les commandes spécifiées
 
 # Cible par défaut
-all: gen-ssh-key ssh-copy-id install-packages install-python-packages
+all: install-packages install-python-packages
 
 # Installer des packages système via apt
 install-packages:
