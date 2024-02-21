@@ -18,6 +18,8 @@ Présenté sous forme d’une application graphique Python déployée sur un env
  
 ## 🚀 Comment utiliser l’Application Seahawks Harvester ?
 
+⚠️ Uniquemnent sous distribution Debian ⚠️
+
 1. Télécharger les fichiers :
 
 ```
