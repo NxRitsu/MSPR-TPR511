@@ -36,7 +36,7 @@ Cela va alors télécharger tout les paquets nécessaire au bon fonctionnement
 
    **Ligne 27, 143, 144, et 145**
 
-5. Générer une paire de clés SSH :
+4. Générer une paire de clés SSH :
 ```
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
 ```
