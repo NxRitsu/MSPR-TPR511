@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 class ApplicationReseauAvecNmap:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Informations Réseau LAN")
+        self.root.title("Seahawks Harvester")
 
         style = ttk.Style()
         style.theme_use("clam")
