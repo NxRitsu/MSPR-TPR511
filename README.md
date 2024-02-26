@@ -28,7 +28,7 @@ git clone https://github.com/NxRitsu/SeahawksHarvesterMSPR-E6.1
 
 2. Installer les dépendances listées dans le fichier "requirement.txt"
 
-3. Modifier le script Python afin d'indiquer l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur, le chemin distant où arrivera le fichier XML sur le serveur.
+3. Modifier le script Python afin d'indiquer la carte réseau à scanner, l'adresse IP du serveur qui va recevoir le fichier XML, l'utilisateur et le chemin distant où arrivera le fichier XML sur le serveur.
 
    **Ligne 27, 143, 144, et 145**
 
