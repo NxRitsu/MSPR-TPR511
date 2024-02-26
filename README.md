@@ -26,7 +26,7 @@ Présenté sous forme d’une application graphique Python déployée sur un env
 git clone https://github.com/NxRitsu/SeahawksHarvesterMSPR-E6.1
 ```
 
-2. Exécuter la commande suivante (dans le dossier dossier téléchargé) :
+2. Installer les dépendances listées dans le fichier "requirement.txt" :
 ```
 make
 ```
