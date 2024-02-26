@@ -13,7 +13,7 @@ Fournis un tableau de bord avec des informations telles que:
 * Affichage du dernier scan réseau (machines + ports)
 * Latence de l’accès à Internet
   
-Cette application créée un fichier XML comprenant toutes les inforamtions du dernier scan réseau, ce fichier XML est ensuite envoyé sur le serveur voulu via sFTP.
+Cette application créée un fichier XML comprenant toutes les informations du dernier scan réseau, ce fichier XML est ensuite envoyé sur le serveur voulu via sFTP.
 Présenté sous forme d’une application graphique Python déployée sur un environnement Debian 12.
  
 ## 🚀 Comment utiliser l’Application Seahawks Harvester ?
